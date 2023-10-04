@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("welcome to user registration problem");
             ValidationClass.validate_details();
         }
     }
