@@ -14,6 +14,7 @@ namespace AnnotationsAssignment
             UserDetails userobj = new UserDetails();
             userobj.first_name = "Sanjeeva";
             userobj.last_name = "Bodagalla";
+            userobj.email = "sanjeeva@gmail.com";
 
             ValidationContext context = new ValidationContext(userobj,null,null);
             List<ValidationResult> results = new List<ValidationResult>();
@@ -30,6 +31,8 @@ namespace AnnotationsAssignment
             {
                 Console.WriteLine("fisrt name : " +userobj.first_name);
                 Console.WriteLine("last name  : "+userobj.last_name);
+                Console.WriteLine("email id : " + userobj.email);
+               
 
             }
             
