@@ -1,0 +1,11 @@
+﻿namespace AnnotationsAssignment
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            ValidationClass.validate_details();
+        }
+    }
+}
